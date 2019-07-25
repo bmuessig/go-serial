@@ -20,7 +20,7 @@ import (
 	"go.uber.org/multierr"
 	"golang.org/x/sys/unix"
 
-	"github.com/albenik/go-serial/unixutils"
+	"github.com/bmuessig/go-serial/unixutils"
 )
 
 var zeroByte = []byte{0}
